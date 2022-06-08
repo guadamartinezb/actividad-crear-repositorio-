@@ -82,6 +82,25 @@ a {
     background-size: 100px;
     background-position: left;
     background-attachment: fixed;
+    animation-duration: 4s;
+    animation-name: titulo;
+    animation-iteration-count: initial;
+    animation-delay: 2s
+}
+
+@keyframes titulo {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 2;
+    }
+
 
 }
 
@@ -113,9 +132,7 @@ a {
     grid-area: productosv;
 }
 
-.productosv:hover {
-   
-}
+.productosv:hover {}
 
 .mapa {
     color: rgb(122, 122, 216);
@@ -190,7 +207,28 @@ footer {
     font-size: 50px;
     text-align: center;
     background-image: linear-gradient(to top, rgb(161, 161, 243), rgb(200, 200, 255));
+    animation-duration: 4s;
+    animation-name: titulo;
+    animation-iteration-count: initial;
+    animation-delay: 2s
 }
+
+@keyframes titulo {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 2;
+    }
+
+
+}
+
 
 #mainma {
     display: grid;
@@ -198,7 +236,7 @@ footer {
         "menum"
         "div"
         "sub"
-        ;
+    ;
 
     grid-template-columns: 2fr;
 }
@@ -226,6 +264,25 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center center;
+    animation-duration: 4s;
+    animation-name: titulo;
+    animation-iteration-count: initial;
+    animation-delay: 2s
+}
+
+@keyframes titulo {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 2;
+    }
+
 
 }
 
@@ -272,6 +329,7 @@ footer {
     transition: all 2s;
 
 }
+
 .divmarcas {
     display: flex;
     flex-direction: row;
@@ -320,13 +378,31 @@ footer {
     font-size: 50px;
     text-align: center;
     background-color: rgb(203, 203, 230);
-    background-color: linear-gradient(to top, rgb(161, 161, 243), rgb(200, 200, 255) );
+    background-color: linear-gradient(to top, rgb(161, 161, 243), rgb(200, 200, 255));
+    animation-duration: 4s;
+    animation-name: titulo;
+    animation-iteration-count: initial;
+    animation-delay: 2s
+}
+
+@keyframes titulo {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 2;
+    }
+
+
 }
 
 /*desktop*/
-@media (min-width:1024px) {
-    
-}
+@media (min-width:1024px) {}
 
 /*tablet*/
 @media(min-width:481px) and (max-width:1023px) {

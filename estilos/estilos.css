@@ -401,6 +401,70 @@ footer {
 
 }
 
+#backcp {
+    margin: 0%;
+    background-image: url("../imagenes/fondocuidadopersonal.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 3px;
+}
+. {
+
+    
+}
+.productoscp {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 3px pink;
+    color: rgb(122, 122, 216);
+    padding-left: 8px;
+    margin: 4px;
+    width: 250px;
+    height: 370px;
+    display: inline-table;
+    text-align: center;
+    border-radius: 50px;
+   
+}
+
+color: rgb(122, 122, 216);
+font-weight: bold;
+padding-left: 10px;
+margin: 20px;
+font-size: 50px;
+text-align: center;
+background-color: rgb(203, 203, 230);
+background-color: linear-gradient(to top, rgb(161, 161, 243), rgb(200, 200, 255));
+animation-duration: 4s;
+animation-name: titulo;
+animation-iteration-count: initial;
+animation-delay: 2s
+}
+
+@keyframes titulo {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 2;
+    }
+
+
+}
+
 /*desktop*/
 @media (min-width:1024px) {}
 
